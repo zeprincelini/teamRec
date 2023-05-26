@@ -31,7 +31,7 @@ const Input = ({
       <input
         {...{ type }}
         {...rest}
-        className={`border-[1px] bg-transparent border-[#F4F5F8] placeholder:font-normal text-[#1E2A53] font-bold rounded w-full focus:outline-0 focus:border-[#5586DC] focus:bg-[#F0F5FF] focus:text-[#5586DC] h-full text-[22px]`}
+        className={`border-[1px] bg-transparent border-[#F4F5F8] placeholder:font-normal text-[#1E2A53] font-bold rounded w-full focus:outline-0 focus:border-[#5586DC] focus:bg-[#F0F5FF] focus:text-[#5586DC] h-full text-[18px]`}
         style={{
           padding: `${paddingY} ${paddingX}`,
           textAlign: align as Property.TextAlign,

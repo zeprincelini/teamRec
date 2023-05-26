@@ -82,7 +82,7 @@ const CardForm = (): ReactElement => {
           </div>
           <div className="flex-1">
             <Input
-              placeholder="Enter CVV"
+              placeholder="343"
               onChange={onCvvChange}
               value={cvv}
               align="center"
@@ -133,7 +133,7 @@ const CardForm = (): ReactElement => {
           </div>
           <div className="flex-1">
             <Input
-              placeholder="Enter password"
+              placeholder="******"
               type="password"
               paddingX="1rem"
               rightIcon={

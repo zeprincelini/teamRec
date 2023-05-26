@@ -8,8 +8,8 @@ import mastercard from "../assets/svg/mastercard.svg";
 const Checkout = (): ReactElement => {
   return (
     <div className="relative">
-      <div className="absolute w-[20px] h-[5px] bg-[#025EFE] left-[50%] translate-x-[-50%]"></div>
-      <div className="bg-white shadow rounded-[20px] w-[70%] py-8 px-6 mx-auto relative z-[4]">
+      <div className="absolute w-[50px] h-[10px] bg-[#025EFE] left-[50%] translate-x-[-50%] top-[-5px] z-[2]"></div>
+      <div className="bg-white bg-opacity-80 shadow rounded-[20px] w-[70%] py-8 px-6 mx-auto relative z-[4] backdrop-blur-md">
         <div className="flex justify-between items-center">
           <img src={chipIcon} width={40} alt="card chip icon" />
           <img src={wifiIcon} width={30} alt="wifi icon" />
