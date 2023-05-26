@@ -23,7 +23,7 @@ const Checkout = (): ReactElement => {
           <img src={mastercard} alt="mastercard icon" width={30} />
         </div>
       </div>
-      <div className="absolute w-full bg-[#E9EDF1] px-6 rounded-[20px] pt-[250px] pb-8 z-[1] top-[100px]">
+      <div className="absolute w-full bg-[#E9EDF1] px-6 rounded-[20px] pt-[200px] pb-8 z-[1] top-[100px]">
         <div className="relative">
           <div className="flex justify-between">
             <div className="grid gap-3">
